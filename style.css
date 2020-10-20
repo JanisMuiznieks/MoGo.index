@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* sarkana - f38181, */
+
+
+/* dzeltena - fce38a, */
+
+
+/* gaiši zaļa -eaffd0, */
+
+
+/* gaiši zila - 95e1d3 */
+
+
+/* Scrollbar style */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f38181;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+
+/* =================== */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #999
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.navigacijas-josla {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(243, 129, 129, 0.7);
+    z-index: 10;
+}
+
+.logo {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin-left: 20px;
+    transition: all .3s;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    color: #fce38a;
+    border-bottom: 2px solid #fce38a;
+}
+
+header {
+    min-height: 100vh;
+    background-image: url(/img/eagle-mogo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-container {
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%
+}
+
+h1,
+h2 {
+    color: white
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8em;
+    line-height: 0.9;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2em
+}
+
+h3,
+h4 {
+    color: black
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30pt;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24pt
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px 10px;
+    margin-top: 70px;
+    display: inline-block;
+    transition: all .8s;
+    font-size: 0.8em;
+}
+
+.btn:hover {
+    color: #f38181;
+    border: 2px solid #f38181;
+    background-color: white;
+}
+
+main {
+    min-height: 100vh;
+    background-color: white;
+    background-position: center;
+    position: relative;
+}
+
+.first-section,
+.second-section,
+.third-section,
+.fourth-section,
+.fifth-section,
+.sixth-section {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.section-container {
+    padding-top: 100px;
+}
+
+.first-section h4 {
+    margin-bottom: 15px
+}
+
+.line-under-h3 {
+    border-bottom: 4px solid #f38181;
+    width: 80px;
+    display: block;
+    text-align: center;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 1000%);
+}
+
+.section-container h5 {
+    margin-top: 92px;
+    text-align: center;
+    max-width: 100%;
+    left: 480px;
+    right: 480px;
+    color: #999;
+}
+
+.about-us-photo-box {
+    width: 388px;
+    height: 262px;
+    margin-top: 100px;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.about-us-photo-box li {
+    display: inline-block;
+    left: 36px;
+    margin-right: 18px
+}
+
+.about-us-photo-bg {
+    background-color: #95e1d3;
+    display: block;
+    width: 388px;
+    height: 262px;
+    position: absolute;
+    margin-left: 36px
+}
+
+#pic1 {
+    transform: translate(-9px, -9px);
+    margin-left: 36px;
+}
+
+.about-number-container {
+    background-color: #95e1d3;
+    height: 230px;
+    width: 100%;
+    margin-top: 113px;
+    display: block;
+}
+
+.about-number-container ul li {
+    display: inline-block;
+    list-style: none;
+    white-space: nowrap;
+    padding-right: 33px;
+    padding-left: 34px;
+    border-right: 1px solid#b5eae0;
+}
+
+.about-number-container ul h3 {
+    font-size: 72pt;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.about-number-container ul h4 {
+    margin-top: 31px;
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 1;
+}
+
+.service-container {
+    position: relative;
+    display: block;
+    width: 100%
+}
+
+.service-container ul li {
+    display: inline-block;
+    list-style: none;
+    width: 25%;
+    height: 200px;
+    margin-right: 100px;
+    padding-top: 100px;
+    word-wrap: break-word;
+}
+
+.service-container ul h4 {
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    text-align: left;
+    display: block;
+    font-weight: 2;
+    transform: translate(80px, 0px)
+}
+
+.service-container ul h5 {
+    margin-top: 11px;
+    font-size: 15pt;
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+    font-weight: 1;
+    display: block;
+    text-align: left;
+    transform: translate(80px, 0px);
+}
+
+.service-icon {
+    position: absolute;
+    display: block;
+    padding: 20px
+}
+
+.line-between-container {
+    position: relative;
+    display: block;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    top: 50px;
+}
+
+.third-section {
+    min-height: 140vh;
+    background-image: url(/img/third-sec-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.device-container {
+    left: 25%;
+    top: 35%;
+    position: absolute;
+}
+
+.device-2-container {
+    left: 50%;
+    top: 60%;
+    position: absolute;
+}
+
+.device-container img {
+    border-top-right-radius: 33px;
+    border-top-left-radius: 33px;
+    position: absolute;
+}
+
+.device-2-container img {
+    border-radius: 30px;
+    position: absolute;
+}
+
+.what-we-info {
+    margin-top: 60px;
+}
+
+.what-we-container {
+    position: absolute;
+    left: 0;
+    top: 60;
+}
+
+.sidebar-what-we,
+.sidebar-what-we-2,
+.sidebar-what-we-3 {
+    position: absolute;
+    right: 5%;
+    width: 40%;
+    height: 60%;
+    display: block;
+}
+
+.sidebar-what-we-2 {
+    transform: translate(0, 50%);
+}
+
+.sidebar-what-we-3 {
+    transform: translate(0, 100%);
+}
+
+.sidebar-what-we img,
+.sidebar-what-we-2 img,
+.sidebar-what-we-3 img {
+    left: 0;
+    position: absolute;
+    height: 40px;
+}
+
+.info-menu h5 {
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 400;
+    position: relative;
+    display: block;
+    text-align: left;
+    left: 10%;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+}
+
+.info-dropdown {
+    display: none;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    z-index: 1;
+    overflow: auto;
+    height: 80%
+}
+
+.info-dropdown p {
+    font-size: 15pt;
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+    font-style: italic;
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.sidebar-what-we .info-menu:hover,
+.sidebar-what-we-2 .info-menu:hover,
+.sidebar-what-we-3 .info-menu:hover {
+    background-color: rgb(248, 248, 248);
+}
+
+.sidebar-what-we h5::after,
+.sidebar-what-we-2 h5::after,
+.sidebar-what-we-3 h5::after {
+    content: "\25BD";
+}
+
+.info-dropdown p:hover {
+    background-color: rgb(248, 248, 248)
+}
+
+.info-menu:hover .info-dropdown {
+    display: block;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid
+}
